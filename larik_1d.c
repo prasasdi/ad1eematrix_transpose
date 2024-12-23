@@ -55,7 +55,7 @@ void transpose_nxn_avx2(int* matrix, int N) {
     }
 }
 
-int main() {
+int main(void) {
     int N = 5; // Ubah ini ke ukuran matriks NxN yang diinginkan
     int matrix[25] = {
         1, 2, 3, 4, 5,

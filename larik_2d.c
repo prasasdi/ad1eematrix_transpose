@@ -56,8 +56,8 @@ void transpose_nxn_avx2(int** matrix, int N) {
     }
 }
 
-int main() {
-    int N = 5; // Ukuran matriks NxN
+int main(void) {
+    int N = 3; // Ukuran matriks NxN
     int** matrix = malloc(sizeof(int*) * N);
 
     // Alokasikan memori untuk setiap baris
